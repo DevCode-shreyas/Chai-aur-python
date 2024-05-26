@@ -10,4 +10,6 @@ elif pet == "Cat":
     if pet_age >5:
         print("Senior Cat Food")
     else:
-
+        print("Baby Cat Food")
+else:
+    print("Unknown Pet")
