@@ -47,14 +47,14 @@ class ElectricCar(Car):
 # print(my_tesla.__brand)
 # print(my_tesla.fuel_type())
 
-# my_car = Car("Tata","Safari")
-# my_car.model = "City"
-# print(my_car.model) 
+my_car = Car("Tata","Safari")
+my_car.model = "City"
+print(my_car.model) 
 
-# print(my_car.general_desc())
-# print(Car.general_desc())
-# print(safari.fuel_type())
-# print(Car.total_car)
+print(my_car.general_desc())
+print(Car.general_desc())
+print(safari.fuel_type())
+print(Car.total_car)
 
 
 
