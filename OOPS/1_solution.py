@@ -41,11 +41,11 @@ class ElectricCar(Car):
 
 
 
-# print(my_tesla.battery_size)
-# print(my_tesla.model)
-# print(my_tesla.full_name())
-# print(my_tesla.__brand)
-# print(my_tesla.fuel_type())
+print(my_tesla.battery_size)
+print(my_tesla.model)
+print(my_tesla.full_name())
+print(my_tesla.__brand)
+print(my_tesla.fuel_type())
 
 my_car = Car("Tata","Safari")
 my_car.model = "City"
