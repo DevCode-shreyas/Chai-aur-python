@@ -35,9 +35,9 @@ class ElectricCar(Car):
         return "Electric charge"
 
 
-# my_tesla = ElectricCar("Tesla","Model S","100")
+my_tesla = ElectricCar("Tesla","Model S","100")
 
-# print(isinstance(my_tesla,Car))
+print(isinstance(my_tesla,Car))
 
 
 
