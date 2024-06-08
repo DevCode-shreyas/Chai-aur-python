@@ -1,10 +1,10 @@
 class Car:
-    # total_car = 0
+    total_car = 0
 
-    # def __init__(self,brand,model):
-    #    self.__brand = brand
-    #    self.__model = model
-    #    Car.total_car += 1
+    def __init__(self,brand,model):
+       self.__brand = brand
+       self.__model = model
+       Car.total_car += 1
 
     def get_brand(self):
         return self.__brand
